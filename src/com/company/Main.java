@@ -3,6 +3,12 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+
+        System.out.println("Hello Java!");
+        int x = 5;
+        int y = 6;
+        x = y - x;
+        int z = x + y;
+        System.out.println(z);
     }
 }
